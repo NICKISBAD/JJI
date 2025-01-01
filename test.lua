@@ -32,6 +32,8 @@ local Tab = Window:MakeTab({
 		PremiumOnly = false
 })
 
+Tab:AddLabel("Made by beri/NICKISBAD")
+
 local GKey = Tab:AddLabel("Selected Key: ".. SelectedKey)
 local GAtk = Tab:AddLabel("Selected Attack: ".. SelectedAttack)
 
